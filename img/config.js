@@ -17,8 +17,6 @@ const addLayer = (_id, _name, img, _position, _size) => {
   let _elements = `${dir}/${_name}/${img}`;
   // let values = finData(_name, _elements.name);
   let values = { name: _name, fileName: img };
-  // console.log(values, "v==>");
-  // console.log(finData(_name, _elements.name), "finData(_name, _elements.name)");
   let _location = `${dir}/`;
   let elementsForLayer = {
     name: _name,
